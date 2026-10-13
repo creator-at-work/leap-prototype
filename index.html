@@ -90,7 +90,7 @@ function declutter(root){root=root||document;const A=innerWidth*innerHeight,ui=[
   const r=e.getBoundingClientRect();if(r.width<2||r.height<2||r.width*r.height>0.5*A)return;const cs=getComputedStyle(e);if(cs.display==='none'||cs.visibility==='hidden'||+cs.opacity===0)return;
   const txt=[...e.childNodes].some(n=>n.nodeType===3&&n.textContent.trim());
   if(txt||t==='svg'||t==='input'||t==='img'||cs.backgroundColor!=='rgba(0, 0, 0, 0)'||parseFloat(cs.borderTopWidth)>0||cs.boxShadow!=='none')ui.push(r)});
- let hidden=0;root.querySelectorAll('.bgw svg:last-of-type > :not(defs)').forEach(d=>{d.style.display='';const r=d.getBoundingClientRect(),p=4;
+ let hidden=0;root.querySelectorAll('.bgw svg:last-of-type > :not(defs)').forEach(d=>{d.style.display='';const r=d.getBoundingClientRect(),p=10;
   if(ui.some(u=>r.left<u.right+p&&r.right>u.left-p&&r.top<u.bottom+p&&r.bottom>u.top-p)){d.style.display='none';hidden++}});
  root.querySelectorAll('.bgw svg:last-of-type').forEach(s=>s.style.opacity=1);window.__hidden=hidden;return {hidden,ui:ui.length}}
 // Verification: count visible decorations overlapping UI
