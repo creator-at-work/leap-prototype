@@ -101,10 +101,10 @@ const headHTML = (sub = 'here for you', right = '') => `<div class=head>${A.avat
 const inputHTML = ph => `<div class=in><div class=pen><input enterkeyhint=send autocomplete=off autocapitalize=sentences placeholder="${esc(ph)}"></div><span class="send pen">${A.send}</span></div>`;
 
 function welcome() {
-  const n = el(`<div><div class=page><div class="grow hero" style="position:relative">
-  <div class=sys style="margin:0 0 clamp(18px,5dvh,40px)"><span style="font-size:20px;line-height:28px;padding:14px 20px;white-space:nowrap">Congratulations on taking<br>the first step towards<br>studying abroad.</span></div>
+  const n = el(`<div><div class=page><div class="grow hero" style="position:relative;padding-top:clamp(20px,21dvh,190px)">
+  <div class=sys style="margin:0 0 clamp(10px,3dvh,40px)"><span style="font-size:20px;line-height:28px;padding:14px 20px;white-space:nowrap">Congratulations on taking<br>the first step towards<br>studying abroad.</span></div>
   <span style="display:inline-block;margin-left:-20px">${A.mascot}</span>
-  <div style="font-size:15px;color:#7b6a5d;margin-top:clamp(14px,4dvh,34px);line-height:21px">I know it might seem daunting right now.<br>I'm here, and we'll go through it together,<br>one step at a time.</div></div>
+  <div style="font-size:15px;color:#7b6a5d;margin-top:clamp(8px,3dvh,34px);line-height:21px">I know it might seem daunting right now.<br>I'm here, and we'll go through it together,<br>one step at a time.</div></div>
   <div class=foot-btns><div class="pen pri" data-go>Let's begin</div><div class=note style="font-size:12px;margin-top:12px">9 quick questions. No forms, just a chat.</div></div></div></div>`);
   n.querySelector('[data-go]').onclick = intro;
   show(n, { fade: true });
@@ -357,10 +357,10 @@ async function handleFree(t, k) {
   ty.remove(); S.busy = false;
   if (r.error && !r.slots) { await bot("Sorry, I lost my train of thought for a second. Could you try that again? You can also tap one of the options above."); return }
   const sl = r.slots || {}, before = JSON.stringify(S.p), changed = [];
+  if ((sl.no_maths || /\b(without|no|not taken|didn'?t take)\s+(maths?|mathematics)\b/i.test(t)) && /comput|data|engineer/i.test(S.p.subject || 'Computer Science')) return noMaths();
   const set = (key, v) => { if (v == null || v === '' || (Array.isArray(v) && !v.length)) return; if (JSON.stringify(S.p[key]) !== JSON.stringify(v)) { changed.push(key); S.p[key] = v } };
   set('name', sl.name && sl.name.replace(/\b\w/g, m => m.toUpperCase())); set('level', sl.level); set('subject', sl.subject); set('countries', sl.countries); set('board', sl.board); set('grades', GR[sl.grades] || sl.grades); set('budget', sl.budget); set('priority', sl.priority); set('start', sl.start && String(sl.start).match(/20\d\d/)?.[0]);
   if (k === 'help') { S.p.path = 'find' }
-  if (sl.no_maths && /comput|data|engineer/i.test(S.p.subject || 'Computer Science')) return noMaths();
   if (r.is_question && r.reply) {
     await bot(esc(r.reply));
     if (S.step && SLOT_ORDER.includes(S.step) && !changed.includes(S.step)) { await bot(`Now, back to ${S.step === 'board' || S.step === 'grades' ? 'grades' : 'it'}.`); lockLast(); return ask(S.step) }
