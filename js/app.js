@@ -101,10 +101,15 @@ const headHTML = (sub = 'here for you', right = '') => `<div class=head>${A.avat
 const inputHTML = ph => `<div class=in><div class=pen><input enterkeyhint=send autocomplete=off autocapitalize=sentences placeholder="${esc(ph)}"></div><span class="send pen">${A.send}</span></div>`;
 
 function welcome() {
-  const n = el(`<div><div class=page><div class="grow hero" style="position:relative;padding-top:clamp(20px,21dvh,190px)">
-  <div class=sys style="margin:0 0 clamp(10px,3dvh,40px)"><span style="font-size:20px;line-height:28px;padding:14px 20px;white-space:nowrap">Congratulations on taking<br>the first step towards<br>studying abroad.</span></div>
+  const body = dd.slice(defsEnd, endTag), wdefs = defs.replace(/id=(\w+)/g, 'id=w$1'), fx = x => x.replace(/url\(#(\w+)\)/g, 'url(#w$1)');
+  const top = fx(body.slice(0, body.indexOf('<text x="36" y="636"'))), bot = fx(body.slice(body.indexOf('<text x="36" y="636"')));
+  const n = el(`<div class=wel><div class=page>
+  <svg aria-hidden=true viewBox="0 30 390 175" preserveAspectRatio="xMidYMax meet" style="flex:1 1 190px;min-height:64px;max-height:190px;width:100%;overflow:visible">${wdefs}${top}</svg>
+  <div class=hero style="flex:none;padding:6px 28px 4px">
+  <div class=sys style="margin:0 0 clamp(8px,3dvh,40px)"><span style="font-size:20px;line-height:28px;padding:14px 20px;white-space:nowrap">Congratulations on taking<br>the first step towards<br>studying abroad.</span></div>
   <span style="display:inline-block;margin-left:-20px">${A.mascot}</span>
-  <div style="font-size:15px;color:#7b6a5d;margin-top:clamp(8px,3dvh,34px);line-height:21px">I know it might seem daunting right now.<br>I'm here, and we'll go through it together,<br>one step at a time.</div></div>
+  <div style="font-size:15px;color:#7b6a5d;margin-top:clamp(6px,3dvh,34px);line-height:21px">I know it might seem daunting right now.<br>I'm here, and we'll go through it together,<br>one step at a time.</div></div>
+  <svg aria-hidden=true viewBox="0 595 390 105" preserveAspectRatio="xMidYMid meet" style="flex:1 1 110px;min-height:44px;max-height:120px;width:100%;overflow:visible">${wdefs}${bot}</svg>
   <div class=foot-btns><div class="pen pri" data-go>Let's begin</div><div class=note style="font-size:12px;margin-top:12px">9 quick questions. No forms, just a chat.</div></div></div></div>`);
   n.querySelector('[data-go]').onclick = intro;
   show(n, { fade: true });
