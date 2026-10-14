@@ -41,7 +41,7 @@ const post=m=>f.contentWindow.postMessage(m,'*');
 const Q={name:"And what should I call you?",level:"Are you planning a Bachelor's or a Master's?",subject:"What are you planning to study?",countries:"Which countries are you thinking about?",grades:"Which board are you in, and roughly what percentage in Class 12? Predicted is fine.",budget:"What's your yearly budget, all-in? Pick a range.",priority:"What matters most to you? Pick one.",start:"When would you like to start?"};
 const CH={level:["Bachelor's","Master's"],subject:["Computer Science","Business","Medicine","More"],countries:["USA","Canada","UK","More"],grades:["90%+","80 to 90%","70 to 80%","Below 70%","Not sure yet"],budget:["Under ₹30 lakh","₹30 to 60 lakh","₹60 lakh+","Not sure yet"],priority:["Scholarships","Big-name college","Work visa after study","Not fussed"],start:["2027","2028","Not sure yet"],name:[]};
 window.addEventListener('message',async e=>{if(e.source!==f.contentWindow)return;const m=e.data||{};
- if(m.t==='tap'){if(cur.k==='08b_smart_skip'&&ssData){const miss=ssData.miss.shift();if(miss){ssData.f[miss]=m.label;return renderSS()}return go(7)}
+ if(m.t==='tap'){if(cur.k==='08b_smart_skip'&&ssData){const miss=ssData.miss.shift();if(miss){ssData.f[miss]=m.label;return renderSS()}if(!ssData.listed){ssData.listed=true;post({t:'user',text:m.label});const r=await api({mode:'shortlist',profile:ssData.f});post({t:'reply',text:r.reply});return}return go(7)}
   if(cur.k==='08b_smart_skip')return go(7);return next()}
  if(m.t==='say'){
   if(cur.k==='03_name'&&!ssMode){return next()}
@@ -52,7 +52,7 @@ window.addEventListener('message',async e=>{if(e.source!==f.contentWindow)return
    if(!F.level&&/class 12|12th|cbse|icse/i.test(m.text))F.level=null;
    ssData={said:m.text,reply:F.reply||'Got it. Here is what I have:',f:F,miss:keys.filter(k=>!F[k]||(Array.isArray(F[k])&&!F[k].length)),model:r.model};
    f.onload=()=>{f.onload=null;setTimeout(renderSS,150)};show('08b_smart_skip','23 Smart skip: Leapo extracted your answers (live)',null,7);return}
-  hist.push({role:'user',text:m.text});const r=await api({mode:'chat',message:m.text,context:cur.label,history:hist.slice(0,-1)});
+  hist.push({role:'user',text:m.text});const r=await api({mode:'chat',message:m.text,context:cur.label,history:hist.slice(0,-1),profile:ssData?ssData.f:{}});
   hist.push({role:'model',text:r.reply});post({t:'reply',text:r.reply})}});
 function renderSS(){const F=ssData.f,b=v=>'<b>'+String(v).replace(/[<>&]/g,'')+'</b>';const parts=[];
  if(F.level||F.subject)parts.push((F.level?b(F.level)+' in ':'')+(F.subject?b(F.subject):''));if(F.countries)parts.push(b([].concat(F.countries).join(', ')));
