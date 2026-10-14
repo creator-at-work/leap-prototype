@@ -1,0 +1,1278 @@
+{
+ "generated": "2026-10-14",
+ "fx_inr": {
+  "USD": 96.03,
+  "GBP": 127.68,
+  "EUR": 109.0,
+  "CAD": 67.96,
+  "AUD": 67.5,
+  "SGD": 75.17
+ },
+ "big_name_rule": "top 100 in at least 2 of QS 2026, THE 2026, ARWU 2025",
+ "courses": [
+  {
+   "university": "Purdue University",
+   "aliases": [
+    "purdue"
+   ],
+   "course": "BS Computer Science",
+   "level": "Bachelor's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "USA",
+   "currency": "USD",
+   "tuition": 36154,
+   "living": 20594,
+   "cost_year": "2026/27",
+   "cost_notes": "Academic year; summer excluded; India travel and insurance not included. 2027/28 fees not yet published.",
+   "length": "4 years",
+   "ielts": "6.5 overall, 6.0 each band",
+   "english_notes": "Three years of successful English-medium study may satisfy proficiency; assessed individually.",
+   "india_requirements": "Grades 9 to 11 and Class X certificate; four years of maths and three years of lab science. No guaranteed CBSE percentage cutoff published.",
+   "scholarships": "Trustees and Presidential admission scholarships exclude international F/J students.",
+   "scholarship_for_international": false,
+   "deadline": "November 1 (early action and CS priority); January 15 (regular decision). Fall 2027 dates not yet confirmed.",
+   "sources": [
+    "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/undergraduate-tuition-and-fees-2026-2027/",
+    "https://admissions.purdue.edu/become-student/english-proficiency/",
+    "https://www.admissions.purdue.edu/apply/deadlines.php"
+   ],
+   "src_file": "codex_us_answer.md",
+   "inr_lakh_min": 54.5,
+   "inr_lakh_max": 54.5,
+   "fx_inr_per_unit": 96.03,
+   "rankings": null,
+   "big_name": null,
+   "intake": null,
+   "id": "purdue-university-bs-computer-science",
+   "display": {
+    "short": "Purdue",
+    "code": "IND",
+    "city": "West Lafayette, USA",
+    "apply": "1 Nov (last cycle)",
+    "need": "4 yrs maths, 3 lab sciences",
+    "english": "IELTS 6.5",
+    "award": "None at entry for internationals",
+    "why": "Fits your budget even without a scholarship.",
+    "plan_deadline": [
+     "Apply before 1 November",
+     "Last cycle's early date for CS."
+    ],
+    "marks": "Grades 9 to 11 and your Class 10 certificate."
+   }
+  },
+  {
+   "university": "University of Illinois Urbana-Champaign",
+   "aliases": [
+    "uiuc",
+    "illinois",
+    "urbana"
+   ],
+   "course": "BS Computer Science (Grainger)",
+   "level": "Bachelor's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "USA",
+   "currency": "USD",
+   "tuition": 52982,
+   "living": 19898,
+   "cost_year": "2026/27",
+   "cost_notes": "Tuition USD 47,800 plus fees USD 5,182; fall to spring budget.",
+   "length": "4 years",
+   "ielts": null,
+   "english_notes": "TOEFL, IELTS or DET accepted; numerical IELTS minimum not verified. Indian English-medium schooling alone is not an exemption.",
+   "scholarships": "Automatic merit consideration, but international funding is limited; no verified award amount.",
+   "scholarship_for_international": null,
+   "deadline": "November 1 (early action); January 5 (regular decision).",
+   "sources": [
+    "https://www.cost.illinois.edu/Home/Cost/I/U/Compare/12/120268/120268",
+    "https://www.admissions.illinois.edu/first-year-dates"
+   ],
+   "src_file": "codex_us_answer.md",
+   "inr_lakh_min": 70.0,
+   "inr_lakh_max": 70.0,
+   "fx_inr_per_unit": 96.03,
+   "rankings": null,
+   "big_name": null,
+   "india_requirements": null,
+   "intake": null,
+   "id": "university-of-illinois-urbana-champaign-bs-computer-science-grainger",
+   "display": {
+    "short": "UIUC",
+    "code": "CMI",
+    "city": "Urbana-Champaign, USA",
+    "apply": "1 Nov (early action)",
+    "need": "Class 10 and 12 board results",
+    "english": "TOEFL, IELTS or DET",
+    "award": "Limited for internationals",
+    "why": "Strong CS name, limited funding for internationals.",
+    "plan_deadline": [
+     "Apply before 1 November",
+     "Early action date."
+    ],
+    "marks": "Your Class 10 and 12 board results."
+   }
+  },
+  {
+   "university": "Georgia Tech",
+   "aliases": [
+    "georgia tech",
+    "gatech",
+    "georgia institute of technology"
+   ],
+   "course": "BS Computer Science",
+   "level": "Bachelor's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "USA",
+   "currency": "USD",
+   "tuition": 37326,
+   "living": 19194,
+   "cost_year": "2026/27",
+   "cost_notes": "On campus, two semesters. Tuition USD 35,610 plus international fees USD 1,716. Summer and insurance extra.",
+   "length": "4 years; 5-year cooperative plan available",
+   "ielts": null,
+   "english_notes": "English must be shown through a USG-approved method; specific IELTS score not verified.",
+   "india_requirements": "Class X board results and XI marks; predicted XII strongly recommended. SAT or ACT required.",
+   "scholarships": "Stamps President's Scholarship is generally for US citizens and permanent residents.",
+   "scholarship_for_international": false,
+   "deadline": "November 2, 2026 (early action 2, non-Georgia); January 6, 2027 (regular decision).",
+   "sources": [
+    "https://finaid.gatech.edu/costs/undergraduate-costs/",
+    "https://admission.gatech.edu/first-year/deadlines"
+   ],
+   "src_file": "codex_us_answer.md",
+   "inr_lakh_min": 54.3,
+   "inr_lakh_max": 54.3,
+   "fx_inr_per_unit": 96.03,
+   "rankings": null,
+   "big_name": null,
+   "intake": null,
+   "id": "georgia-tech-bs-computer-science",
+   "display": {
+    "short": "Georgia Tech",
+    "code": "ATL",
+    "city": "Atlanta, USA",
+    "apply": "2 Nov 2026",
+    "need": "SAT or ACT, Class 10 and 11 marks",
+    "english": "Not in my data yet",
+    "award": "Mostly for US students",
+    "why": "Fits your budget. Needs the SAT or ACT.",
+    "plan_deadline": [
+     "Apply before 2 November 2026",
+     "Early action for applicants outside Georgia."
+    ],
+    "marks": "Class 10 board results and Class 11 marks."
+   }
+  },
+  {
+   "university": "University of Texas at Austin",
+   "aliases": [
+    "ut austin",
+    "texas austin",
+    "utexas",
+    "university of texas"
+   ],
+   "course": "BS Computer Science",
+   "level": "Bachelor's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "USA",
+   "currency": "USD",
+   "tuition": 44970,
+   "living": 21650,
+   "cost_year": "2026/27",
+   "cost_notes": "Fall and spring; international insurance extra.",
+   "length": "4 years",
+   "ielts": "6.5",
+   "english_notes": "India is currently listed among TOEFL/IELTS-exempt countries; otherwise IELTS 6.5 accepted.",
+   "india_requirements": "Grade 9 to XII records; CS requires calculus readiness; SAT or ACT required.",
+   "scholarships": "Iimura Peace Endowed Scholarship USD 5,000 (one fall award, criteria apply); not guaranteed entrance aid.",
+   "scholarship_for_international": null,
+   "deadline": "October 15, 2026 (early action); December 1, 2026 (regular decision).",
+   "sources": [
+    "https://catalog.utexas.edu/general-information/registration-tuition-and-fees/tuition-and-fees/tables-tuition-for-fall-and-spring/",
+    "https://admissions.utexas.edu/apply/international-students/"
+   ],
+   "src_file": "codex_us_answer.md",
+   "inr_lakh_min": 64.0,
+   "inr_lakh_max": 64.1,
+   "fx_inr_per_unit": 96.03,
+   "rankings": null,
+   "big_name": null,
+   "intake": null,
+   "id": "university-of-texas-at-austin-bs-computer-science",
+   "display": {
+    "short": "UT Austin",
+    "code": "AUS",
+    "city": "Austin, USA",
+    "apply": "15 Oct 2026",
+    "need": "Calculus readiness, SAT or ACT",
+    "english": "India is exempt; else IELTS 6.5",
+    "award": "Not guaranteed entrance aid",
+    "why": "India is on its English-exempt list.",
+    "plan_deadline": [
+     "Apply before 15 October 2026",
+     "Early action date."
+    ],
+    "marks": "Grade 9 to 12 records."
+   }
+  },
+  {
+   "university": "Arizona State University",
+   "aliases": [
+    "asu",
+    "arizona state"
+   ],
+   "course": "BS Computer Science",
+   "level": "Bachelor's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "USA",
+   "currency": "USD",
+   "tuition": 43009,
+   "living": 26897,
+   "cost_year": "2026/27",
+   "cost_notes": "Published international budget USD 69,906: base tuition 39,062, fees 3,947, housing and meals 18,819, books 1,320, travel 1,650, personal 2,343, insurance 2,765.",
+   "length": "4 years",
+   "ielts": "6.5",
+   "english_notes": "DET 105 also accepted; English-medium qualification can support an exemption request.",
+   "india_requirements": "International minimum generally 3.00 GPA / B-equivalent; no maths or science deficiencies.",
+   "scholarships": "New American University international awards: USD 10,000 to 17,500 a year, automatic review, renewable up to eight semesters.",
+   "scholarship_for_international": true,
+   "deadline": "Fall 2027 international deadline not yet published.",
+   "sources": [
+    "https://admission.asu.edu/cost-aid/international",
+    "https://tuition.asu.edu/new-american-university/international"
+   ],
+   "src_file": "codex_us_answer.md",
+   "inr_lakh_min": 67.1,
+   "inr_lakh_max": 67.1,
+   "fx_inr_per_unit": 96.03,
+   "rankings": null,
+   "big_name": null,
+   "intake": null,
+   "id": "arizona-state-university-bs-computer-science",
+   "display": {
+    "short": "ASU",
+    "code": "PHX",
+    "city": "Tempe, USA",
+    "apply": "Not published yet",
+    "need": "B average, no maths or science gaps",
+    "english": "IELTS 6.5",
+    "award": "USD 10,000 to 17,500 a year",
+    "why": "Clear merit awards for internationals.",
+    "plan_deadline": [
+     "Watch for ASU's 2027 date",
+     "Not published yet."
+    ],
+    "marks": "Your school transcript."
+   }
+  },
+  {
+   "university": "University of Washington",
+   "aliases": [
+    "uw",
+    "university of washington",
+    "seattle",
+    "allen school"
+   ],
+   "course": "BS Computer Science (Allen School)",
+   "level": "Bachelor's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "USA",
+   "currency": "USD",
+   "tuition": 45789,
+   "living": 24951,
+   "cost_year": "2026/27",
+   "cost_notes": "Nine months; living USD 23,340 plus health insurance USD 1,611.",
+   "length": "4 years",
+   "ielts": "6.0",
+   "english_notes": "DET 110 also accepted.",
+   "india_requirements": "List CS as first-choice major; 2026 international direct-to-major admit rate 4%.",
+   "scholarships": "UW does not provide undergraduate international financial aid or scholarships.",
+   "scholarship_for_international": false,
+   "deadline": "November 15, 2026",
+   "sources": [
+    "https://iss.washington.edu/annual-expenses/",
+    "https://www.cs.washington.edu/academics/undergraduate/admissions/direct-major/"
+   ],
+   "src_file": "codex_us_answer.md",
+   "inr_lakh_min": 67.9,
+   "inr_lakh_max": 67.9,
+   "fx_inr_per_unit": 96.03,
+   "rankings": null,
+   "big_name": null,
+   "intake": null,
+   "id": "university-of-washington-bs-computer-science-allen-school",
+   "display": {
+    "short": "UW",
+    "code": "SEA",
+    "city": "Seattle, USA",
+    "apply": "15 Nov 2026",
+    "need": "CS as your first-choice major",
+    "english": "IELTS 6.0",
+    "award": "None for internationals",
+    "why": "Direct-to-major CS is very competitive.",
+    "plan_deadline": [
+     "Apply before 15 November 2026",
+     "UW's Autumn 2027 deadline."
+    ],
+    "marks": "Your school transcript."
+   }
+  },
+  {
+   "university": "University of British Columbia",
+   "aliases": [
+    "ubc",
+    "british columbia"
+   ],
+   "course": "BSc (Computer Science from year 2)",
+   "level": "Bachelor's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "Canada",
+   "currency": "CAD",
+   "tuition": 53082,
+   "living": 19024.45,
+   "cost_year": "2026/27",
+   "cost_notes": "8 months living; fees, books, insurance and India travel extra. CS specialisation is applied for after first year.",
+   "length": "4 years",
+   "ielts": "6.5 overall, no band below 6.0",
+   "english_notes": "English-taught CBSE/CISCE with 75%+ in senior English can satisfy the requirement.",
+   "scholarships": "International Major Entrance Scholarship: CAD 10,000 to 25,000 a year, renewable.",
+   "scholarship_for_international": true,
+   "deadline": "January 15, 2027",
+   "sources": [
+    "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/",
+    "https://you.ubc.ca/applying-ubc/requirements/english-language-competency/",
+    "https://you.ubc.ca/applying-ubc/dates-deadlines/"
+   ],
+   "src_file": "codex_us_answer.md",
+   "inr_lakh_min": 49.0,
+   "inr_lakh_max": 49.0,
+   "fx_inr_per_unit": 67.96,
+   "rankings": {
+    "qs_2026": "40",
+    "the_2026": "45",
+    "arwu_2025": "53"
+   },
+   "big_name": true,
+   "india_requirements": null,
+   "intake": null,
+   "id": "university-of-british-columbia-bsc-computer-science-from-year-2",
+   "display": {
+    "short": "UBC",
+    "code": "YVR",
+    "city": "Vancouver, Canada",
+    "apply": "15 Jan 2027",
+    "need": "Strong Class 11 and 12 marks",
+    "english": "IELTS 6.5, or 75%+ in CBSE English",
+    "award": "CAD 10,000 to 25,000 a year, competitive",
+    "why": "Renewable award of up to CAD 25,000 a year.",
+    "plan_deadline": [
+     "Apply before 15 January 2027",
+     "UBC's admission deadline."
+    ],
+    "marks": "Your Class 11 and 12 marks."
+   }
+  },
+  {
+   "university": "University of Waterloo",
+   "aliases": [
+    "waterloo",
+    "uwaterloo"
+   ],
+   "course": "Bachelor of Computer Science",
+   "level": "Bachelor's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "Canada",
+   "currency": "CAD",
+   "tuition": 69884,
+   "living": 23448,
+   "cost_year": "2026/27",
+   "cost_notes": "Tuition is fall plus winter regular tuition; living is the Canadian immigration minimum.",
+   "length": "4 years regular; 5 years co-op",
+   "ielts": "6.5 overall (writing and speaking 6.5, reading and listening 6.0)",
+   "india_requirements": "85% overall; 90% in Class XII Mathematics and one other subject; Applied Mathematics not accepted.",
+   "scholarships": "International Student Entrance Scholarship: CAD 10,000, first year only.",
+   "scholarship_for_international": true,
+   "deadline": "February 1, 2027",
+   "sources": [
+    "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
+    "https://uwaterloo.ca/future-students/admissions/admission-requirements/computer-science/high-school/international-system/indian-system",
+    "https://uwaterloo.ca/future-students/admissions/deadlines"
+   ],
+   "src_file": "codex_shortlist_answer.md",
+   "inr_lakh_min": 63.4,
+   "inr_lakh_max": 63.4,
+   "fx_inr_per_unit": 67.96,
+   "rankings": {
+    "qs_2026": "=119",
+    "the_2026": "=162",
+    "arwu_2025": null
+   },
+   "big_name": false,
+   "english_notes": null,
+   "intake": null,
+   "id": "university-of-waterloo-bachelor-of-computer-science",
+   "display": {
+    "short": "Waterloo",
+    "code": "YKF",
+    "city": "Waterloo, Canada",
+    "apply": "1 Feb 2027",
+    "need": "85% overall, 90% in Maths",
+    "english": "IELTS 6.5",
+    "award": "CAD 10,000 in first year",
+    "why": "Needs 90% in Class 12 Maths.",
+    "plan_deadline": [
+     "Apply before 1 February 2027",
+     "Waterloo's application deadline."
+    ],
+    "marks": "Class 12 marks, 90% in Maths."
+   }
+  },
+  {
+   "university": "University of Toronto",
+   "aliases": [
+    "toronto",
+    "uoft",
+    "u of t",
+    "st george"
+   ],
+   "course": "Computer Science (St. George)",
+   "level": "Bachelor's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "Canada",
+   "currency": "CAD",
+   "tuition": 66110,
+   "living": 23448,
+   "cost_year": "2026/27",
+   "cost_notes": "First-year tuition; 2027/28 indicative rate CAD 68,750. Living is the Canadian immigration minimum.",
+   "length": "4 years",
+   "ielts": "6.5, each band 6.0+",
+   "english_notes": "CBSE Class XII English alone does not replace the test.",
+   "india_requirements": "Standard Mathematics required, not Applied.",
+   "scholarships": "Lester B. Pearson Scholarship covers tuition, books, fees and residence for four years; U of T Scholars CAD 10,000 once.",
+   "scholarship_for_international": true,
+   "deadline": "January 15, 2027",
+   "sources": [
+    "https://www.utsc.utoronto.ca/admissions/tuition-and-fees",
+    "https://future.utoronto.ca/english-language-requirements",
+    "https://future.utoronto.ca/deadlines"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 60.9,
+   "inr_lakh_max": 60.9,
+   "fx_inr_per_unit": 67.96,
+   "rankings": null,
+   "big_name": null,
+   "intake": null,
+   "id": "university-of-toronto-computer-science-st-george",
+   "display": {
+    "short": "Toronto",
+    "code": "YYZ",
+    "city": "Toronto, Canada",
+    "apply": "15 Jan 2027",
+    "need": "Standard Maths, not Applied",
+    "english": "IELTS 6.5",
+    "award": "Pearson and U of T Scholars",
+    "why": "Needs Standard Maths, not Applied.",
+    "plan_deadline": [
+     "Apply before 15 January 2027",
+     "Toronto's admission deadline."
+    ],
+    "marks": "Class 12 marks with Standard Maths."
+   }
+  },
+  {
+   "university": "University College London",
+   "aliases": [
+    "ucl",
+    "university college london"
+   ],
+   "course": "BSc Computer Science",
+   "level": "Bachelor's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "UK",
+   "currency": "GBP",
+   "tuition": 48600,
+   "living": 16465,
+   "cost_year": "2027/28 tuition, 2026/27 living",
+   "cost_notes": "Living is UCL's essentials estimate for 39 weeks.",
+   "length": "3 years",
+   "ielts": null,
+   "english_notes": "IELTS waiver with 85% in CBSE English Core.",
+   "india_requirements": "Maths 95% inferred from published A* equivalence.",
+   "scholarships": "Global Undergraduate Scholarship: full tuition.",
+   "scholarship_for_international": true,
+   "deadline": "January 13, 18:00 UK",
+   "sources": [
+    "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc",
+    "https://www.ucl.ac.uk/study/student-finances/cost-study/how-much-does-it-cost-study-ucl"
+   ],
+   "src_file": "codex_shortlist_answer.md",
+   "inr_lakh_min": 83.1,
+   "inr_lakh_max": 83.1,
+   "fx_inr_per_unit": 127.68,
+   "rankings": {
+    "qs_2026": "9",
+    "the_2026": "22",
+    "arwu_2025": "14"
+   },
+   "big_name": true,
+   "intake": null,
+   "id": "university-college-london-bsc-computer-science",
+   "display": {
+    "short": "UCL",
+    "code": "LHR",
+    "city": "London, UK",
+    "apply": "13 Jan, 18:00 UK",
+    "need": "Maths around 95%",
+    "english": "Waiver with 85% in English Core",
+    "award": "Full-tuition scholarship",
+    "why": "IELTS waived with 85% in English Core.",
+    "plan_deadline": [
+     "Apply before 13 January",
+     "UK equal-consideration date."
+    ],
+    "marks": "Class 12 marks, strong Maths."
+   }
+  },
+  {
+   "university": "University of Manchester",
+   "aliases": [
+    "manchester"
+   ],
+   "course": "BSc Computer Science",
+   "level": "Bachelor's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "UK",
+   "currency": "GBP",
+   "tuition": 39700,
+   "living": 15030,
+   "cost_year": "2027/28 tuition, 2026/27 living",
+   "cost_notes": "Living is self-catered, 41 weeks.",
+   "length": "3 years",
+   "ielts": null,
+   "english_notes": "IELTS waiver with 85% in CBSE English (Functional English excluded).",
+   "india_requirements": "90% average and Mathematics; 85% in Physics or CS (2026 entry).",
+   "scholarships": "Global Futures: GBP 12,000 a year for three years.",
+   "scholarship_for_international": true,
+   "deadline": "January 13, 18:00 UK",
+   "sources": [
+    "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+    "https://www.cs.manchester.ac.uk/study/international-students/country-specific-information/"
+   ],
+   "src_file": "codex_shortlist_answer.md",
+   "inr_lakh_min": 69.9,
+   "inr_lakh_max": 69.9,
+   "fx_inr_per_unit": 127.68,
+   "rankings": {
+    "qs_2026": "35",
+    "the_2026": "56",
+    "arwu_2025": null
+   },
+   "big_name": true,
+   "intake": null,
+   "id": "university-of-manchester-bsc-computer-science",
+   "display": {
+    "short": "Manchester",
+    "code": "MAN",
+    "city": "Manchester, UK",
+    "apply": "13 Jan, 18:00 UK",
+    "need": "90% average and Maths",
+    "english": "Waiver with 85% in English",
+    "award": "GBP 12,000 a year",
+    "why": "Global Futures award of GBP 12,000 a year.",
+    "plan_deadline": [
+     "Apply before 13 January",
+     "UK equal-consideration date."
+    ],
+    "marks": "90% average, including Maths."
+   }
+  },
+  {
+   "university": "RWTH Aachen",
+   "aliases": [
+    "rwth",
+    "aachen"
+   ],
+   "course": "Programmes (no tuition)",
+   "level": null,
+   "subjects": null,
+   "country": "Germany",
+   "currency": "EUR",
+   "tuition": 0,
+   "living": 11904,
+   "cost_year": "2026/27",
+   "cost_notes": "Semester contribution excluded; living is the blocked-account amount.",
+   "sources": [
+    "https://www.rwth-aachen.de/cms/root/studium/Im-Studium/~egw/Rueckmeldung/lidx/1/"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 13.0,
+   "inr_lakh_max": 13.0,
+   "fx_inr_per_unit": 109.0,
+   "rankings": null,
+   "big_name": null,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "rwth-aachen-programmes-no-tuition",
+   "display": null
+  },
+  {
+   "university": "University of Mannheim",
+   "aliases": [
+    "mannheim"
+   ],
+   "course": "Programmes (non-EU tuition)",
+   "level": null,
+   "subjects": null,
+   "country": "Germany",
+   "currency": "EUR",
+   "tuition": 3388,
+   "living": 11904,
+   "cost_year": "2026/27",
+   "cost_notes": "EUR 1,500 per semester plus EUR 194 semester fee.",
+   "sources": [
+    "https://www.uni-mannheim.de/en/academics/during-your-studies/organizing-your-studies/fees/tuition-fees-for-international-students/"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 16.7,
+   "inr_lakh_max": 16.7,
+   "fx_inr_per_unit": 109.0,
+   "rankings": null,
+   "big_name": null,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "university-of-mannheim-programmes-non-eu-tuition",
+   "display": null
+  },
+  {
+   "university": "Technical University of Munich",
+   "aliases": [
+    "tum",
+    "technical university of munich",
+    "munich"
+   ],
+   "course": "Bachelor's programmes",
+   "level": "Bachelor's",
+   "subjects": null,
+   "country": "Germany",
+   "currency": "EUR",
+   "tuition": 4194,
+   "living": 11904,
+   "cost_year": "2026/27",
+   "cost_notes": "EUR 2,000 per semester tier plus EUR 97 fee.",
+   "sources": [
+    "https://www.tum.de/en/studies/fees/tuition/"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 17.5,
+   "inr_lakh_max": 17.5,
+   "fx_inr_per_unit": 109.0,
+   "rankings": {
+    "qs_2026": "=22",
+    "the_2026": "27",
+    "arwu_2025": null
+   },
+   "big_name": true,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "technical-university-of-munich-bachelor-s-programmes",
+   "display": null
+  },
+  {
+   "university": "Technical University of Munich",
+   "aliases": [
+    "tum",
+    "technical university of munich",
+    "munich"
+   ],
+   "course": "Master's programmes",
+   "level": "Master's",
+   "subjects": null,
+   "country": "Germany",
+   "currency": "EUR",
+   "tuition": 8194,
+   "living": 11904,
+   "cost_year": "2026/27",
+   "cost_notes": "EUR 4,000 per semester tier plus EUR 97 fee; a EUR 6,000 tier exists.",
+   "sources": [
+    "https://www.tum.de/en/studies/fees/tuition/"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 21.9,
+   "inr_lakh_max": 21.9,
+   "fx_inr_per_unit": 109.0,
+   "rankings": {
+    "qs_2026": "=22",
+    "the_2026": "27",
+    "arwu_2025": null
+   },
+   "big_name": true,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "technical-university-of-munich-master-s-programmes",
+   "display": null
+  },
+  {
+   "university": "Trinity College Dublin",
+   "aliases": [
+    "trinity",
+    "tcd"
+   ],
+   "course": "MSc Computer Science",
+   "level": "Master's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "Ireland",
+   "currency": "EUR",
+   "tuition": 16960,
+   "living": 10000,
+   "cost_year": "2026/27",
+   "cost_notes": "Year 1 fee.",
+   "sources": [
+    "https://www.tcd.ie/courses/postgraduate/fees/"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 29.4,
+   "inr_lakh_max": 29.4,
+   "fx_inr_per_unit": 109.0,
+   "rankings": {
+    "qs_2026": "75",
+    "the_2026": "173",
+    "arwu_2025": null
+   },
+   "big_name": false,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "trinity-college-dublin-msc-computer-science",
+   "display": null
+  },
+  {
+   "university": "Memorial University of Newfoundland",
+   "aliases": [
+    "memorial",
+    "mun",
+    "newfoundland"
+   ],
+   "course": "Undergraduate programmes",
+   "level": "Bachelor's",
+   "subjects": null,
+   "country": "Canada",
+   "currency": "CAD",
+   "tuition": 22500,
+   "living": 23448,
+   "cost_year": "2026/27",
+   "cost_notes": "CAD 750 per credit times 30.",
+   "sources": [
+    "https://mun.ca/finance/tuition-fees-and-charges/tuition-fees/undergraduate-students/"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 31.2,
+   "inr_lakh_max": 31.2,
+   "fx_inr_per_unit": 67.96,
+   "rankings": null,
+   "big_name": null,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "memorial-university-of-newfoundland-undergraduate-programmes",
+   "display": null
+  },
+  {
+   "university": "Coventry University",
+   "aliases": [
+    "coventry"
+   ],
+   "course": "Postgraduate programmes (typical)",
+   "level": "Master's",
+   "subjects": null,
+   "country": "UK",
+   "currency": "GBP",
+   "tuition": 18600,
+   "living": 10539,
+   "cost_year": "2026/27",
+   "cost_notes": "Typical PG fee.",
+   "sources": [
+    "https://www.coventry.ac.uk/study-at-coventry/postgraduate-study/fees-and-funding/postgraduate-fees/"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 37.2,
+   "inr_lakh_max": 37.2,
+   "fx_inr_per_unit": 127.68,
+   "rankings": null,
+   "big_name": null,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "coventry-university-postgraduate-programmes-typical",
+   "display": null
+  },
+  {
+   "university": "National University of Singapore",
+   "aliases": [
+    "nus",
+    "national university of singapore"
+   ],
+   "course": "Computing / Engineering (undergraduate, no tuition grant)",
+   "level": "Bachelor's",
+   "subjects": [
+    "Computer Science",
+    "Computing",
+    "Engineering"
+   ],
+   "country": "Singapore",
+   "currency": "SGD",
+   "tuition": 39700,
+   "living": 11750,
+   "cost_year": "2026/27",
+   "cost_notes": null,
+   "sources": [
+    "https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 38.7,
+   "inr_lakh_max": 38.7,
+   "fx_inr_per_unit": 75.17,
+   "rankings": {
+    "qs_2026": "8",
+    "the_2026": "17",
+    "arwu_2025": null
+   },
+   "big_name": true,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "national-university-of-singapore-computing-engineering-undergraduate-no-tuition-grant",
+   "display": null
+  },
+  {
+   "university": "University College Dublin",
+   "aliases": [
+    "ucd",
+    "university college dublin"
+   ],
+   "course": "MSc Data & Computational Science",
+   "level": "Master's",
+   "subjects": [
+    "Data Science",
+    "Computer Science"
+   ],
+   "country": "Ireland",
+   "currency": "EUR",
+   "tuition": 27720,
+   "living": 10000,
+   "cost_year": "2026/27",
+   "cost_notes": null,
+   "sources": [
+    "https://www.ucd.ie/students/fees/noneucoursefees/index.html"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 41.1,
+   "inr_lakh_max": 41.1,
+   "fx_inr_per_unit": 109.0,
+   "rankings": {
+    "qs_2026": "118",
+    "the_2026": null,
+    "arwu_2025": null
+   },
+   "big_name": false,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "university-college-dublin-msc-data-computational-science",
+   "display": null
+  },
+  {
+   "university": "Deakin University",
+   "aliases": [
+    "deakin"
+   ],
+   "course": "Master of Information Technology",
+   "level": "Master's",
+   "subjects": [
+    "Information Technology",
+    "Computer Science"
+   ],
+   "country": "Australia",
+   "currency": "AUD",
+   "tuition": 44200,
+   "living": 29710,
+   "cost_year": "2026/27",
+   "cost_notes": null,
+   "sources": [
+    "https://www.deakin.edu.au/students/enrolment-and-fees/fees/international-students/international-student-fees"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 49.9,
+   "inr_lakh_max": 49.9,
+   "fx_inr_per_unit": 67.5,
+   "rankings": null,
+   "big_name": null,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "deakin-university-master-of-information-technology",
+   "display": null
+  },
+  {
+   "university": "University of Sydney",
+   "aliases": [
+    "sydney",
+    "usyd"
+   ],
+   "course": "BE (Hons)",
+   "level": "Bachelor's",
+   "subjects": [
+    "Engineering"
+   ],
+   "country": "Australia",
+   "currency": "AUD",
+   "tuition": 60600,
+   "living": 29710,
+   "cost_year": "2026/27",
+   "cost_notes": null,
+   "sources": [
+    "https://www.sydney.edu.au/study/fees-and-loans/international-student-tuition-fees.html"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 61.0,
+   "inr_lakh_max": 61.0,
+   "fx_inr_per_unit": 67.5,
+   "rankings": null,
+   "big_name": null,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "university-of-sydney-be-hons",
+   "display": null
+  },
+  {
+   "university": "University of Melbourne",
+   "aliases": [
+    "melbourne",
+    "unimelb"
+   ],
+   "course": "Master of Computer Science",
+   "level": "Master's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "Australia",
+   "currency": "AUD",
+   "tuition": 62976,
+   "living": 29710,
+   "cost_year": "2026/27",
+   "cost_notes": null,
+   "sources": [
+    "https://students.unimelb.edu.au/__data/assets/pdf_file/0020/5423033/2026-International-Course-Tuition-Fees-OF_20260807.pdf"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 62.6,
+   "inr_lakh_max": 62.6,
+   "fx_inr_per_unit": 67.5,
+   "rankings": {
+    "qs_2026": "19",
+    "the_2026": "37",
+    "arwu_2025": null
+   },
+   "big_name": true,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "university-of-melbourne-master-of-computer-science",
+   "display": null
+  },
+  {
+   "university": "Imperial College London",
+   "aliases": [
+    "imperial"
+   ],
+   "course": "MSc Computing",
+   "level": "Master's",
+   "subjects": [
+    "Computer Science",
+    "Computing"
+   ],
+   "country": "UK",
+   "currency": "GBP",
+   "tuition": 46000,
+   "living": 13761,
+   "cost_year": "2026/27",
+   "cost_notes": "London living figure.",
+   "sources": [
+    "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/postgraduate-tuition-fees/2026-27/taught-postgraduate-programmes/faculty-of-engineering/"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 76.3,
+   "inr_lakh_max": 76.3,
+   "fx_inr_per_unit": 127.68,
+   "rankings": null,
+   "big_name": null,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "imperial-college-london-msc-computing",
+   "display": null
+  },
+  {
+   "university": "University of Oxford",
+   "aliases": [
+    "oxford"
+   ],
+   "course": "MEng Engineering Science",
+   "level": "Bachelor's",
+   "subjects": [
+    "Engineering"
+   ],
+   "country": "UK",
+   "currency": "GBP",
+   "tuition": 62820,
+   "living": 10539,
+   "cost_year": "2026/27",
+   "cost_notes": null,
+   "sources": [
+    "https://www.ox.ac.uk/students/fees-funding/fees/rates"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 93.7,
+   "inr_lakh_max": 93.7,
+   "fx_inr_per_unit": 127.68,
+   "rankings": null,
+   "big_name": null,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "university-of-oxford-meng-engineering-science",
+   "display": null
+  },
+  {
+   "university": "Carnegie Mellon University",
+   "aliases": [
+    "cmu",
+    "carnegie mellon"
+   ],
+   "course": "MS (School of Computer Science)",
+   "level": "Master's",
+   "subjects": [
+    "Computer Science"
+   ],
+   "country": "USA",
+   "currency": "USD",
+   "tuition": 62200,
+   "living": 37374,
+   "cost_year": "2026/27",
+   "cost_notes": "Non-tuition is the cost-of-attendance figure.",
+   "sources": [
+    "https://www.cmu.edu/sfs/tuition/graduate/scs.html"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 95.6,
+   "inr_lakh_max": 95.6,
+   "fx_inr_per_unit": 96.03,
+   "rankings": {
+    "qs_2026": "52",
+    "the_2026": null,
+    "arwu_2025": "101-150"
+   },
+   "big_name": false,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "carnegie-mellon-university-ms-school-of-computer-science",
+   "display": null
+  },
+  {
+   "university": "Columbia University",
+   "aliases": [
+    "columbia"
+   ],
+   "course": "MS (SEAS, Engineering)",
+   "level": "Master's",
+   "subjects": [
+    "Engineering"
+   ],
+   "country": "USA",
+   "currency": "USD",
+   "tuition": 67728,
+   "living": 42888,
+   "cost_year": "2026/27",
+   "cost_notes": "Living figure is fees USD 11,253 plus living USD 31,635.",
+   "sources": [
+    "https://sfs.columbia.edu/content/graduate-engineering-cost-attendance"
+   ],
+   "src_file": "cost_buckets.md",
+   "inr_lakh_min": 106.2,
+   "inr_lakh_max": 106.2,
+   "fx_inr_per_unit": 96.03,
+   "rankings": null,
+   "big_name": null,
+   "ielts": null,
+   "english_notes": null,
+   "india_requirements": null,
+   "scholarships": null,
+   "scholarship_for_international": null,
+   "deadline": null,
+   "length": null,
+   "intake": null,
+   "id": "columbia-university-ms-seas-engineering",
+   "display": null
+  },
+  {
+   "id": "massachusetts-institute-of-technology",
+   "university": "Massachusetts Institute of Technology",
+   "aliases": [
+    "mit",
+    "massachusetts institute"
+   ],
+   "course": null,
+   "level": null,
+   "subjects": null,
+   "country": null,
+   "currency": null,
+   "tuition": null,
+   "living": null,
+   "inr_lakh_min": null,
+   "inr_lakh_max": null,
+   "rankings": {
+    "qs_2026": "1",
+    "the_2026": "2",
+    "arwu_2025": "3"
+   },
+   "big_name": true,
+   "sources": [
+    "rankings.csv"
+   ],
+   "src_file": "rankings.csv",
+   "display": null
+  },
+  {
+   "id": "australian-national-university",
+   "university": "Australian National University",
+   "aliases": [
+    "anu",
+    "australian national"
+   ],
+   "course": null,
+   "level": null,
+   "subjects": null,
+   "country": null,
+   "currency": null,
+   "tuition": null,
+   "living": null,
+   "inr_lakh_min": null,
+   "inr_lakh_max": null,
+   "rankings": {
+    "qs_2026": "=32",
+    "the_2026": "=73",
+    "arwu_2025": null
+   },
+   "big_name": true,
+   "sources": [
+    "rankings.csv"
+   ],
+   "src_file": "rankings.csv",
+   "display": null
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+.ck .rz{position:absolute;left:0;right:0;bottom:0;top:96px;background:#f5f6f8;border-radius:14px 14px 0 0;overflow:hidden;display:flex;flex-direction:column;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1d2433;z-index:6;-webkit-font-smoothing:antialiased}
+.ck .rz *{font-family:inherit}
+.ck .rzh{background:#c96f4a;color:#fff;padding:14px 16px 16px;flex:none}
+.ck .rzh .top{display:flex;align-items:center;gap:10px}
+.ck .rzlogo{width:38px;height:38px;border-radius:8px;background:#fff;display:grid;place-items:center;overflow:hidden}
+.ck .rzh b{font-size:16px;font-weight:600;display:block}
+.ck .rzh small{font-size:11px;opacity:.9;display:flex;align-items:center;gap:4px;margin-top:2px}
+.ck .rzx{margin-left:auto;font-size:20px;opacity:.9;padding:4px;cursor:pointer}
+.ck .rzb{flex:1;overflow-y:auto;padding:12px 12px 8px}
+.ck .rzc{background:#fff;border-radius:8px;border:1px solid #e6e8ec;margin-bottom:12px}
+.ck .rzl{font-size:12.5px;font-weight:600;color:#1d2433;margin:4px 4px 8px}
+.ck .rzr{display:flex;align-items:center;gap:12px;padding:13px 14px;border-top:1px solid #eef0f3;cursor:pointer}
+.ck .rzr:first-child{border-top:none}
+.ck .rzr .t{flex:1;min-width:0}
+.ck .rzr .t b{font-size:14px;font-weight:500;display:block}
+.ck .rzr .t span{font-size:11.5px;color:#6b7280}
+.ck .rzr.sel{background:#fbf3ef}
+.ck .rzradio{width:16px;height:16px;border-radius:50%;border:1.5px solid #9aa1ad}
+.ck .rzr.sel .rzradio{border:5px solid #c96f4a}
+.ck .rzapps{display:flex;gap:10px;padding:2px 14px 14px}
+.ck .rzapp{flex:1;border:1px solid #e6e8ec;border-radius:6px;padding:9px 4px;display:flex;flex-direction:column;align-items:center;gap:5px;font-size:11.5px;color:#1d2433;cursor:pointer}
+.ck .rzapp.sel{border-color:#c96f4a;background:#fbf3ef}
+.ck .rzf{background:#fff;border-top:1px solid #e6e8ec;padding:10px 14px calc(env(safe-area-inset-bottom) + 10px);flex:none}
+.ck .rzpay{display:flex;align-items:center;gap:12px}
+.ck .rzamt b{font-size:17px;font-weight:600;display:block}
+.ck .rzamt span{font-size:11.5px;color:#2b83ea}
+.ck .rzbtn{margin-left:auto;background:#c96f4a;color:#fff;border-radius:6px;padding:12px 22px;font-size:15px;font-weight:600;cursor:pointer}
+.ck .rzsec{text-align:center;font-size:10.5px;color:#6b7280;margin-top:8px;display:flex;justify-content:center;align-items:center;gap:4px}
+.ck .rzsec b{color:#0c2651;font-weight:700;font-style:italic}

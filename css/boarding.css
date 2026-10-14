@@ -1,0 +1,37 @@
+.bpw .dot2{width:8px;height:8px;border-radius:50%;background:#c96f4a;flex:none;animation:p2 .9s ease-in-out infinite}
+.bpw .rt{position:absolute;top:0;white-space:nowrap;opacity:0;font:14.5px DM Sans;background:linear-gradient(90deg,#6b5a4d 35%,#f0d6c0 50%,#6b5a4d 65%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:cyc 11s infinite both, sh 1.6s linear infinite}
+@keyframes sh{from{background-position:120% 0}to{background-position:-120% 0}}
+@keyframes p2{50%{transform:scale(.55);opacity:.5}}
+.bpw .stage>*{flex:none}
+.bpw .bp .xfoot{position:static!important}
+.bpw .bp .xtop{position:static!important}
+.bpw .bp .xrow{height:78px;box-sizing:border-box}
+.bpw .bp .xcode,.bpw .bp .xwin{height:42px;line-height:42px}
+.bpw .bp .xlab{line-height:14px;height:14px}
+.bpw .bp .xtop,.bpw .bp .xfoot{line-height:16px}
+.bpw .stage{position:absolute;left:0;right:0;top:120px;bottom:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px}
+.bpw .xarc{width:300px;height:110px;position:relative}
+.bpw .xarc svg{position:absolute;inset:0}
+.bpw .xplane{offset-path:path("M20 95 Q150 -20 280 95");animation:fly 2.6s ease-in-out infinite;position:absolute;left:0;top:0}
+@keyframes fly{0%{offset-distance:0%;opacity:0}10%{opacity:1}90%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.bpw .bp{width:300px;background:#fffaf3;border:1.6px solid #3b2a22;border-radius:14px 16px 13px 15px;box-shadow:3px 4px 0 rgba(59,42,34,.13);overflow:hidden;font-family:DM Sans;color:#3b2a22;position:relative;animation:bob 3s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px) rotate(-.6deg)}}
+.bpw .bp .xtop{background:#c96f4a;color:#fffaf3;padding:8px 14px;font:700 11px DM Sans;letter-spacing:2px;display:flex;justify-content:space-between}
+.bpw .bp .xrow{display:flex;align-items:center;justify-content:space-between;padding:16px 18px 10px}
+.bpw .xcode{font:700 34px DM Sans;letter-spacing:1px}
+.bpw .xwin{height:42px;overflow:hidden;position:relative}
+.bpw .xreel{display:flex;flex-direction:column;animation:roll 7.2s steps(1) infinite}
+.bpw .xreel span{height:42px;line-height:42px;font:700 34px DM Sans;color:#c96f4a}
+@keyframes roll{0.00%{transform:translateY(-0px)}12.50%{transform:translateY(-42px)}25.00%{transform:translateY(-84px)}37.50%{transform:translateY(-126px)}50.00%{transform:translateY(-168px)}62.50%{transform:translateY(-210px)}75.00%{transform:translateY(-252px)}87.50%{transform:translateY(-294px)}}
+.bpw .xlab{font:500 10px DM Sans;color:#9a8878;letter-spacing:1.5px}
+.bpw .bp .xfoot{border-top:1.5px dashed #d9c6b2;padding:10px 18px;display:flex;justify-content:space-between;font:500 11.5px DM Sans;color:#7b6a5d}
+.bpw .xstampx{position:absolute;right:16px;bottom:30px;border:2.2px solid #6f8f5e;color:#6f8f5e;border-radius:50%;width:62px;height:62px;display:flex;align-items:center;justify-content:center;font:700 10px DM Sans;letter-spacing:1px;text-align:center;transform:rotate(-14deg) scale(1.6);opacity:0;animation:stamp .9s ease-out infinite}
+@keyframes stamp{0%,55%{opacity:0;transform:rotate(-14deg) scale(1.6)}70%{opacity:.85;transform:rotate(-14deg) scale(1)}100%{opacity:.85;transform:rotate(-14deg) scale(1)}}
+.bpw .xline{display:flex;align-items:center;gap:10px;width:290px}
+.bpw .rw{position:relative;height:20px;width:260px}
+.bpw .rt{left:0}
+@keyframes cyc{0%{opacity:0;transform:translateY(6px)}3%{opacity:1;transform:none}17%{opacity:1;transform:none}20%{opacity:0;transform:translateY(-6px)}100%{opacity:0}}
+.bpw .stage{top:auto!important;bottom:84px!important;gap:10px!important;justify-content:flex-end!important}
+.bpw .xarc{display:none}
+.bpw .bp{transform-origin:center}
+.bpw .bp .xrow{padding:8px 18px 6px!important;height:64px!important}
