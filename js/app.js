@@ -551,6 +551,27 @@ const EDGES = {
 };
 const mb = el('<button class=menu-btn aria-label="Prototype menu">≡</button>'), ms = el(`<div class=menu-sheet><div class=bd></div><div class=ms><h4>Leap prototype</h4><div class=row>${Object.keys(JUMPS).slice(0, 1).map(k => `<button data-j="${k}">${k}</button>`).join('')}</div><h4>Jump to</h4>${Object.keys(JUMPS).slice(1).map(k => `<button data-j="${k}"><b>${k.slice(0, 2)}</b>${k.slice(3)}</button>`).join('')}<h4>Edge cases</h4>${Object.keys(EDGES).map(k => `<button data-e="${k}"><b>${k.slice(0, 2)}</b>${k.slice(3)}</button>`).join('')}<p>Clickable prototype with sample data. Live answers from Google Gemini, grounded in Leap's college data. <a href="about.html" style="color:#8a4b32">About</a></p></div></div>`);
 app.append(mb, ms); mb.onclick = () => ms.classList.add('open'); ms.querySelector('.bd').onclick = () => ms.classList.remove('open');
-ms.onclick = e => { const b = e.target.closest('button'); if (!b) return; ms.classList.remove('open'); (b.dataset.j ? JUMPS[b.dataset.j] : EDGES[b.dataset.e])() };
-window.LEAP = { S, JUMPS, EDGES };
+// One ordered list of jump points (Restart, 08 to 18, 19 to 28) so Back and Next can step through them.
+const STOPS = [...Object.keys(JUMPS).map(k => ['j', k]), ...Object.keys(EDGES).map(k => ['e', k])];
+let pos = 0, jumping = false;
+async function go(i) {
+  if (jumping || i < 0 || i >= STOPS.length) return;
+  jumping = true; pos = i; markSide();
+  const [t, k] = STOPS[i];
+  try { await (t === 'j' ? JUMPS[k] : EDGES[k])() } finally { jumping = false }
+}
+const stopOf = b => STOPS.findIndex(([t, k]) => b.dataset.j ? t === 'j' && k === b.dataset.j : t === 'e' && k === b.dataset.e);
+ms.onclick = e => { const b = e.target.closest('button'); if (!b) return; ms.classList.remove('open'); go(stopOf(b)) };
+// Desktop side controls (LearnTube pattern): intro and Restart, Back, Next on the left; jump list with the current one marked on the right.
+const li = (t, k) => `<li><button data-${t}="${k}"><b>${k.slice(0, 2)}</b>${k.slice(3)}</button></li>`;
+const sideL = el(`<aside class="side side-l" aria-label="Prototype controls"><div class=lg>Leap</div><h1>Chat with Leapo, your study-abroad counsellor.</h1><p>Clickable prototype with sample data. Live answers from Google Gemini, grounded in Leap's college data. <a href="about.html">About</a></p><div class=ctrl><button class=sb data-act=restart>Restart</button><button class="sb o" data-act=back aria-label="Back to the previous jump point">‹ Back</button><button class="sb o" data-act=next aria-label="Next jump point">Next ›</button></div><div class=hint>Back and Next step through the jump points</div></aside>`);
+const sideR = el(`<aside class="side side-r" aria-label="Jump points"><h4>Jump to</h4><ol>${Object.keys(JUMPS).slice(1).map(k => li('j', k)).join('')}</ol><h4>Edge cases</h4><ol>${Object.keys(EDGES).map(k => li('e', k)).join('')}</ol></aside>`);
+function markSide() {
+  sideR.querySelectorAll('button').forEach(b => b.closest('li').classList.toggle('on', stopOf(b) === pos));
+  sideL.querySelector('[data-act=back]').disabled = pos <= 0; sideL.querySelector('[data-act=next]').disabled = pos >= STOPS.length - 1;
+}
+sideL.onclick = e => { const a = e.target.closest('[data-act]')?.dataset.act; if (a) go(a === 'restart' ? 0 : a === 'back' ? pos - 1 : pos + 1) };
+sideR.onclick = e => { const b = e.target.closest('button'); if (b) go(stopOf(b)) };
+document.body.append(sideL, sideR); markSide();
+window.LEAP = { S, JUMPS, EDGES, go };
 welcome();
